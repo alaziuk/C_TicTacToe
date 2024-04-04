@@ -54,7 +54,7 @@ ruch_na_liscie *legalne_ruchy(polegry* plansza){
                 }
                 else
                     ptr=(ruch_na_liscie*)calloc(1,sizeof(ruch_na_liscie));
-                ptr->nastepny==NULL;
+                ptr->nastepny=NULL;
                 ptr->dana.na_pole = (pole) {w,k};
                 if(!glowa) glowa=ptr;
             }  
